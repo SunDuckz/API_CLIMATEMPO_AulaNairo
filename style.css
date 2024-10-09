@@ -1,0 +1,84 @@
+body{
+    text-align: center;
+    font-size: 16px;
+    background-color: gray;
+}
+
+.tabela-imagens{
+    display: flex;
+    height: 100px;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border:5px dotted black;
+    border-radius: 20px;
+}
+
+.tabela-principal{
+    display: flex;
+    border: 5px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    width: 300px;
+    margin-left: 500px;
+    align-items: stretch;
+    flex-direction: column;
+    background: white;
+}
+.tabela-principal h2{
+    border: 5px solid black;
+    border-radius: 20px;
+    background-color: rgb(94, 146, 252);
+
+}
+.temperatura{
+    border-left: 6px solid red;
+    margin: 20px;
+    padding-left: 10px;
+    border-radius: 5px;
+    background-color: rgb(212, 211, 211);
+}
+.chuva{
+    display: flex;
+    border-left: 6px solid rgb(60, 60, 230);
+    margin: 20px;
+    padding-left: 10px;
+    border-radius: 5px;
+    background-color: rgb(212, 211, 211);
+    flex-direction: column;
+}
+
+.umidade{
+    border-left: 6px solid #00d9ff;
+    margin: 20px;
+    padding-left: 10px;
+    border-radius: 5px;
+    background-color: rgb(212, 211, 211);
+}
+.sol{
+    border-left: 6px solid rgb(255, 170, 0);
+    margin: 20px;
+    padding-left: 10px;
+     border-radius: 5px;
+     background-color: rgb(212, 211, 211);
+}
+
+h3 {
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+header{
+    border: 5px solid black;
+    margin-left: 420px;
+    width: 500px;
+    border-radius: 20px;
+    background: white;
+}
+.color-red{
+    color:red
+}
+.color-light-blue{
+    color: #4dd1fd;
+}
